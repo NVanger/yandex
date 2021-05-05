@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body, h1,h3,h4 {
+	margin:0;/* Обнуляет отступы */
+	font-size:100%;
+	font-weight:normal; /* Жирность текста */
+}
+*{
+	box-sizing:border-box;
+}
+.header {
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	width:100%;
+	height:100%;
+	background-image: url(https://images.unsplash.com/photo-1616793815079-59c1eefeaed7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+	background-position:center;
+}
+.header-title {
+	text-transform:uppercase;
+	color:#FFFFF0;
+	text-shadow: 2px 2px 3px #191970;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size:46px;
+	letter-spacing:2px; /* Расстояние между буквами */ 
+	padding:30px;	/* Отступ заголовка */
+	margin:auto;
+}
+.overlay {
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.5)	;	/* Добавляем слой для затемнения фоновой картинки */
+	display:flex;
+}
+.content {
+	font-size:0;
+	width: 900px; 
+	margin: 80px auto 50px;
+}
+.card{
+	width:400px;
+	/* background-color:#D8BFD8; */
+	box-shadow: 10px 10px 20px #9370DB;
+	margin-bottom:30px;
+	padding: 40px;
+	display:inline-block;
+	margin-right:100px;
+}
+.second {
+	margin-right:0;
+}
+.img {width:100%;
+	margin-bottom:10px;
+	border: 1px solid #000;
+}
+.card-title {
+	font-weight:900;
+	margin-bottom:10px;
+	font-size:32px;
+	text-transform:uppercase;
+	font-family:'Amatic SC','COMIC SANS MS', cursive;
+	text-align:center;
+	padding-top:20px;
+}
+.footer {
+	background-color:#191970;
+	height:100px;
+	display: flex;
+}
+.author {
+	font-family: 'Balsamiq Sans', cursive;
+	color:white;
+	margin:auto;
+	font-size:24px;
+}
